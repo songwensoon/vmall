@@ -34,12 +34,17 @@ background: #dfefc9;
 .menu-items li a:hover,.menu-items .current a{
 color: #7fbe26!important;
 }
+
 .menu .cart {
-float: right;
-width: 176px;
-padding-left: 50px;
-background: url(./bg.png) -18px 10px no-repeat #80BA2F;
-margin: 0;
+    background: url(./bg.png) no-repeat scroll -18px 10px #80BA2F;
+    float: right;
+    margin: 0;
+    padding-left: 50px;
+    width: 176px;
+}
+.menu-items .cart a:hover {
+background: #80BA2F;
+color: #FFFFFF!important;
 }
 .category .catlist dt a {
 color: #80BA2F;
@@ -52,6 +57,12 @@ background: #dfefc9;
 }
 .subCategory .j_SubView {
 background: #dfefc9;
+}
+.menu-items li a {
+    width: 156px;
+}
+.left dt {
+    border-left: 4px solid #80BA2F;
 }
 </style>
 <body class="gray">
@@ -180,9 +191,9 @@ background: #dfefc9;
                 </p>
             </li>
                     </ul>
-			<div class="" style="margin-top:38px;">
+			<div class="" style="margin-top:43px;">
         <!--<a href=""><img src="image/new/adv/ad9.png" /></a>-->
-    	<a href="http://democn.mall-builder.com" target="_blank"><img width="164"  alt="pouch" src="http://img.taobaocdn.com/tps/i2/TB1ZZfAFXXXXXXFcpXXSutbFXXX.jpg_q90.jpg"></a>
+    	<a href="http://democn.mall-builder.com" target="_blank"><img width="164"  alt="pouch" src="http://mall.b2b-builder.com/uploadfile/adv/1398308021.jpg"></a>
         </div>
 
     </div>
@@ -1092,15 +1103,13 @@ background: #dfefc9;
         <ul class="menu-items">
                         <li class="current"> <a href="http://democn.mall-builder.com/">首页</a>
             </li>
-                        <li > <a href="http://democn.mall-builder.com/brand.html">品牌</a>
+                        <li > <a href="http://democn.mall-builder.com/brand.html">保健、家政预约</a>
             </li>
-                        <li > <a href="http://democn.mall-builder.com/news.html">新闻</a>
+                        <li > <a href="http://democn.mall-builder.com/news.html">信康中心动态</a>
             </li>
-                        <li > <a href="http://democn.mall-builder.com/shop.html">店铺</a>
+                        <li > <a href="http://democn.mall-builder.com/shop.html">信康中心介绍</a>
             </li>
-                        <li > <a href="http://democn.mall-builder.com/sns.html">广场</a>
-            </li>
-                        <li > <a href="http://democn.mall-builder.com/points.html">积分商城</a>
+                        <li > <a href="http://democn.mall-builder.com/sns.html">自然疗法培训课程</a>
             </li>
                         <li class="cart">
             <a href="http://democn.mall-builder.com?m=product&s=cart">
@@ -1113,6 +1122,26 @@ background: #dfefc9;
 </div><script type="text/javascript" src="http://democn.mall-builder.com/script/jquery.flexslider-min.js"></script>
 <link href="http://democn.mall-builder.com/script/jcarousel/skins/tango/skin.css" rel="stylesheet" type="text/css" />
 <link href="http://democn.mall-builder.com/templates/default/css/product.css" rel="stylesheet" type="text/css" />
+<style>
+.notice li {
+    background: url("./bg.png") no-repeat scroll 2px -47px transparent;
+}
+.notice .fore2 a {
+    background: url("./bg.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 36px;
+}
+.hot dt span.current {
+    color: #80BA2F;
+}
+.left dt {
+    border-left: 4px solid #80BA2F;
+}
+.left dl:hover .i-m {
+    border: 1px solid #80BA2F;
+}
+
+</style>
 <div class="w fn-clear">
 	<div class="adv">
     	<div class="adv787X327">
@@ -1288,48 +1317,8 @@ background: #dfefc9;
    <a href="http://democn.mall-builder.com" target="_blank"><img src="http://democn.mall-builder.com/uploadfile/adv/ad10.png" border="0"></a>
 </div>
 
-<div class="w mt20 fn-clear">
+<div class="w mt20 fn-clear" >
 	<div class="left fn-clear">
-        <dl>
-    	<div class="i-m">
-            <dt style="border-left-color:">图书音像</dt>
-            <dd class="fn-clear">
-                <ul class="fn-clear"><li class="fore1">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-377.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/1/2014/04/15/1397531553.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-377.html">客厅大画爱络金度100印布十字绣套件21596J浪漫牵手家居日用/装饰</a></div>
-</li>
-<li class="fore2">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-367.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/1/1398244680.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-367.html">马云说创业</a></div>
-</li>
-<li class="fore3">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-303.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/1/1398246904.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-303.html">唱片</a></div>
-</li>
-</ul>
-                <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100001">电子书</a></li>
-				                		<li><a href="?m=product&s=list&id=100009">少儿</a></li>
-				                		<li><a href="?m=product&s=list&id=100008">科技</a></li>
-				                		<li><a href="?m=product&s=list&id=100007">生活</a></li>
-				                		<li><a href="?m=product&s=list&id=100006">经管励志</a></li>
-				                		<li><a href="?m=product&s=list&id=100005">人文社科</a></li>
-				                </ul>        
-            </dd>
-		</div>
-    </dl>
         <dl>
     	<div class="i-m">
             <dt style="border-left-color:">家用电器</dt>
@@ -1369,49 +1358,10 @@ background: #dfefc9;
             </dd>
 		</div>
     </dl>
+        
         <dl>
     	<div class="i-m">
-            <dt style="border-left-color:">手机数码</dt>
-            <dd class="fn-clear">
-                <ul class="fn-clear"><li class="fore1">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-78.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/6/2013/06/21/1371795426_78243.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-78.html">Motorola 摩托罗拉 双卡双待智能机</a></div>
-</li>
-<li class="fore2">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-413.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/19/2014/05/05/1399272737.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-413.html">【送16G卡+壳膜】华为荣耀3x 华为3X 手机Huawei/华为G750-T00</a></div>
-</li>
-<li class="fore3">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-412.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/19/2014/05/05/1399272318.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-412.html">【原封正品 移动4G公开版特价】Apple/苹果 iPhone 5S 苹果5S手机</a></div>
-</li>
-</ul>
-                <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100201">手机通讯</a></li>
-				                		<li><a href="?m=product&s=list&id=100202">运营商</a></li>
-				                		<li><a href="?m=product&s=list&id=100203">手机配件</a></li>
-				                		<li><a href="?m=product&s=list&id=100204">摄影摄像</a></li>
-				                		<li><a href="?m=product&s=list&id=100205">数码配件</a></li>
-				                		<li><a href="?m=product&s=list&id=100206">时尚影音</a></li>
-				                </ul>        
-            </dd>
-		</div>
-    </dl>
-        <dl>
-    	<div class="i-m">
-            <dt style="border-left-color:">电脑办公</dt>
+            <dt style="border-left-color:">学习办公用品</dt>
             <dd class="fn-clear">
                 <ul class="fn-clear"><li class="fore1">
 <div class="p-img">
@@ -1450,7 +1400,7 @@ background: #dfefc9;
     </dl>
         <dl>
     	<div class="i-m">
-            <dt style="border-left-color:">家居、家具、家装、厨具</dt>
+            <dt style="border-left-color:">家居工具配件</dt>
             <dd class="fn-clear">
                 <ul class="fn-clear"><li class="fore1">
 <div class="p-img">
@@ -1490,7 +1440,7 @@ background: #dfefc9;
     </dl>
         <dl>
     	<div class="i-m">
-            <dt style="border-left-color:">服饰鞋帽</dt>
+            <dt style="border-left-color:">日常生活用品</dt>
             <dd class="fn-clear">
                 <ul class="fn-clear"><li class="fore1">
 <div class="p-img">
@@ -1530,7 +1480,7 @@ background: #dfefc9;
     </dl>
         <dl>
     	<div class="i-m">
-            <dt style="border-left-color:">个护化妆</dt>
+            <dt style="border-left-color:">保健护理用品</dt>
             <dd class="fn-clear">
                 <ul class="fn-clear"><li class="fore1">
 <div class="p-img">
@@ -1567,47 +1517,10 @@ background: #dfefc9;
             </dd>
 		</div>
     </dl>
+        
         <dl>
     	<div class="i-m">
-            <dt style="border-left-color:">礼品箱包、钟表、珠宝</dt>
-            <dd class="fn-clear">
-                <ul class="fn-clear"><li class="fore1">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-371.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/1/2014/04/15/1397529844.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-371.html">Dissona迪桑娜 头层牛皮 真皮女包 手提包简约百搭款 人气爆款</a></div>
-</li>
-<li class="fore2">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-332.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/552/2013/12/27/1388117363.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-332.html">周大福官方正品简约大方足金黄金耳钉(工费:38 计价)F 434 </a></div>
-</li>
-<li class="fore3">
-<div class="p-img">
-    <a target="_blank" href="http://democn.mall-builder.com/product-detail-329.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/552/2013/12/27/1388117119.jpg_220X220.jpg' />
-    </a>
-</div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-329.html">CTF【七款可选】周大福福星宝宝投资金币(约10g 计价)IF </a></div>
-</li>
-</ul>
-                <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100701">瑞士名表</a></li>
-				                		<li><a href="?m=product&s=list&id=100704">钻石、翡翠、珍珠</a></li>
-				                		<li><a href="?m=product&s=list&id=100706">火机、烟具</a></li>
-				                		<li><a href="?m=product&s=list&id=100708">奢侈品</a></li>
-				                </ul>        
-            </dd>
-		</div>
-    </dl>
-        <dl>
-    	<div class="i-m">
-            <dt style="border-left-color:">运动健康</dt>
+            <dt style="border-left-color:">健康按摩器械</dt>
             <dd class="fn-clear">
                 <ul class="fn-clear"><li class="fore1">
 <div class="p-img">
@@ -1647,90 +1560,175 @@ background: #dfefc9;
     </dl>
         <dl>
     	<div class="i-m">
-            <dt style="border-left-color:">汽车用品</dt>
+            <dt style="border-left-color:">家政服务预约</dt>
             <dd class="fn-clear">
                 <ul class="fn-clear"><li class="fore1">
 <div class="p-img">
     <a target="_blank" href="http://democn.mall-builder.com/product-detail-378.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/751/2014/04/15/1397541997.jpg_220X220.jpg' />
+        <img height="170" src='./2012715214042.jpg' />
     </a>
 </div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-378.html">奥迪A6L</a></div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-378.html">预约有效为24小时，24小时后未到达则自动退款。所有付款均在线上交易。</a></div>
 </li>
 <li class="fore2">
 <div class="p-img">
     <a target="_blank" href="http://democn.mall-builder.com/product-detail-374.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/751/2014/04/15/1397530838.jpg_220X220.jpg' />
+        <img src='dddd.jpg' />
     </a>
 </div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-374.html">奥迪A4L 定金500元</a></div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-374.html">家政服务预约</a></div>
 </li>
 <li class="fore3">
 <div class="p-img">
     <a target="_blank" href="http://democn.mall-builder.com/product-detail-370.html">
-        <img src='http://democn.mall-builder.com/uploadfile/product/751/2014/04/15/1397529339.jpg_220X220.jpg' />
+        <img src='dddd.jpg' />
     </a>
 </div>
-<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-370.html">一汽丰田</a></div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-370.html">家政服务预约</a></div>
 </li>
 </ul>
                 <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100901">维修保养</a></li>
-				                		<li><a href="?m=product&s=list&id=100902">车载电器</a></li>
-				                		<li><a href="?m=product&s=list&id=100903">美容清洗</a></li>
-				                		<li><a href="?m=product&s=list&id=100904">汽车装饰</a></li>
+				<li><a href="?m=product&s=list&id=100901">厨房清洁</a></li>
+				<li><a href="?m=product&s=list&id=100902">空调清洁</a></li>
+				<li><a href="?m=product&s=list&id=100903">房间清洁</a></li>
+                </ul>        
+            </dd>
+		</div>
+    </dl>
+	 <dl>
+    	<div class="i-m">
+            <dt style="border-left-color:">保健服务预约</dt>
+            <dd class="fn-clear">
+                <ul class="fn-clear"><li class="fore1">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-378.html">
+        <img src='./nanxtj.gif' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-378.html">预约有效为24小时，24小时后未到达则自动退款。所有付款均在线上交易。</a></div>
+</li>
+<li class="fore2">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-374.html">
+        <img src='dddd.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-374.html">保健服务预约</a></div>
+</li>
+<li class="fore3">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-370.html">
+        <img src='dddd.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-370.html">保健服务预约</a></div>
+</li>
+</ul>
+                <ul class="cat fn-clear">
+					<li><a href="?m=product&s=list&id=100901">保健推拿预约</a></li>
+				<li><a href="?m=product&s=list&id=100902">保健刮痧预约</a></li>
+				<li><a href="?m=product&s=list&id=100903">保健排淤预约</a></li>
+				<li><a href="?m=product&s=list&id=100904">穴位电灸预约</a></li>
+		
 				                </ul>        
             </dd>
+		</div>
+    </dl>
+	<dl>
+    	<div class="i-m">
+            <dt style="border-left-color:">自然疗法培训课程</dt>
+            <dd class="fn-clear">
+                <ul class="fn-clear"><li class="fore1">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-377.html">
+        <img src='http://democn.mall-builder.com/uploadfile/product/1/2014/04/15/1397531553.jpg_220X220.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-377.html">自然疗法培训课程</a></div>
+</li>
+<li class="fore2">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-367.html">
+        <img src='http://democn.mall-builder.com/uploadfile/product/1/1398244680.jpg_220X220.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-367.html">自然疗法培训课程</a></div>
+</li>
+<li class="fore3">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-303.html">
+        <img src='http://democn.mall-builder.com/uploadfile/product/1/1398246904.jpg_220X220.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-303.html">自然疗法培训课程</a></div>
+</li>
+</ul>
+                <ul class="cat fn-clear">
+                                		<li><a href="?m=product&s=list&id=100001">自然疗法基础</a></li>
+				                		<li><a href="?m=product&s=list&id=100009">电灸穴位疗法</a></li>
+				                		<li><a href="?m=product&s=list&id=100008">排淤疗法</a></li>
+				                		<li><a href="?m=product&s=list&id=100007">中医理疗知识</a></li>
+				                		<li><a href="?m=product&s=list&id=100006">按摩技巧培训</a></li>
+				                </ul>        
+            </dd>
+		</div>
+    </dl>
+	<dl style="display:none;">
+    	<div class="i-m">
+            <dt style="border-left-color:">手机数码</dt>
+            <dd class="fn-clear">
+                <ul class="fn-clear"><li class="fore1">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-78.html">
+        <img src='http://democn.mall-builder.com/uploadfile/product/6/2013/06/21/1371795426_78243.jpg_220X220.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-78.html">Motorola 摩托罗拉 双卡双待智能机</a></div>
+</li>
+<li class="fore2">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-413.html">
+        <img src='http://democn.mall-builder.com/uploadfile/product/19/2014/05/05/1399272737.jpg_220X220.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-413.html">【送16G卡+壳膜】华为荣耀3x 华为3X 手机Huawei/华为G750-T00</a></div>
+</li>
+<li class="fore3">
+<div class="p-img">
+    <a target="_blank" href="http://democn.mall-builder.com/product-detail-412.html">
+        <img src='http://democn.mall-builder.com/uploadfile/product/19/2014/05/05/1399272318.jpg_220X220.jpg' />
+    </a>
+</div>
+<div class="p-name"><a target="_blank" href="http://democn.mall-builder.com/product-detail-412.html">【原封正品 移动4G公开版特价】Apple/苹果 iPhone 5S 苹果5S手机</a></div>
+</li>
+</ul>
+                <ul class="cat fn-clear">
+                                		<li><a href="?m=product&s=list&id=100201">手机通讯</a></li>
+				                		<li><a href="?m=product&s=list&id=100202">运营商</a></li>
+				                		<li><a href="?m=product&s=list&id=100203">手机配件</a></li>
+				                		<li><a href="?m=product&s=list&id=100204">摄影摄像</a></li>
+				                		<li><a href="?m=product&s=list&id=100205">数码配件</a></li>
+				                		<li><a href="?m=product&s=list&id=100206">时尚影音</a></li>
+				                </ul>        
+            </dd>
+
 		</div>
     </dl>
     	</div>
     <div class="right">
     	<dl class="sns">
         	<dt class="fn-clear">
-            	<a target="_blank" href="http://democn.mall-builder.com/sns.html">去广场看看</a>
-            	<h2>广场动态</h2>
+            	<a target="_blank" href="http://democn.mall-builder.com/sns.html">更多</a>
+            	<h2>信康中心动态</h2>
             </dt>
-            <dd><li class="fn-clear">
+            <dd>
+		<li class="fn-clear">
     <div class="fore1 fn-clear">
-        <b>方方</b>
-        <span>05-27&nbsp;21:33</span>
-    </div>
-    <div class="fore2 fn-clear">
-    	<div class="txt">asdf <a target='_blank' href='http://democn.mall-builder.com/shop-1.html'>http://democn.mall-builder.com</a></div>
-                <div class="pic fn-clear">
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/shop/1/2014/05/06/1399366678.jpg" />
-              
-                    </div>
-            </div>
-    <div class="fore3 fn-clear">
-        <span>评论(0)</span>
-        <span>转发(0)</span>
-    </div>
-</li>
-<li class="fn-clear">
-    <div class="fore1 fn-clear">
-        <b>方方</b>
-        <span>05-20&nbsp;18:26</span>
-    </div>
-    <div class="fore2 fn-clear">
-    	<div class="txt">afdsssaf <a target='_blank' href='http://democn.mall-builder.com/shop-1.html'>http://democn.mall-builder.com</a></div>
-                <div class="pic fn-clear">
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/shop/1/2014/05/06/1399366678.jpg" />
-              
-                    </div>
-            </div>
-    <div class="fore3 fn-clear">
-        <span>评论(0)</span>
-        <span>转发(3)</span>
-    </div>
-</li>
-<li class="fn-clear">
-    <div class="fore1 fn-clear">
-        <b>方方</b>
+        <b>产品优惠信息</b>
         <span>05-20&nbsp;12:00</span>
     </div>
     <div class="fore2 fn-clear">
-    	<div class="txt">这个宝贝真不错我很喜欢【Sony/索尼 SVF14A18SC F14A18SCP 炫酷 时尚 高清 带触控笔记本】 <a target='_blank' href='http://democn.mall-builder.com/product-detail-420.html'>http://democn.mall-builder.com</a></div>
+    	<div class="txt" style="height: 100px;">产品优惠信息产品优惠信息产品优惠信息产品优惠信息产品优惠信息产品优惠信息产品优惠信息产品优惠信息产品优惠信息产品优惠信息产品优惠信息 <a target='_blank' href='http://democn.mall-builder.com/product-detail-420.html'>>>>详情</a></div>
                 <div class="pic fn-clear">
                                         <img width="80" src="http://democn.mall-builder.com/uploadfile/product/1/2014/05/07/1399441046.jpg" />
               
@@ -1743,13 +1741,13 @@ background: #dfefc9;
 </li>
 <li class="fn-clear">
     <div class="fore1 fn-clear">
-        <b>方方</b>
+        <b>公益就诊活动</b>
         <span>05-16&nbsp;09:49</span>
     </div>
     <div class="fore2 fn-clear">
-    	<div class="txt">不错哦 <a target='_blank' href='http://democn.mall-builder.com/product-detail-420.html'>http://democn.mall-builder.com</a></div>
+    	<div class="txt" style="height: 100px;">公益就诊活动公益就诊活动公益就诊活动公益就诊活动公益就诊活动公益就诊活动公益就诊活动公益就诊活动公益就诊活动公益就诊活动公益就诊活动 <a target='_blank' href='http://democn.mall-builder.com/product-detail-420.html'>>>>详情</a></div>
                 <div class="pic fn-clear">
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/1/2014/05/07/1399441046.jpg" />
+                      <img width="80" src="http://democn.mall-builder.com/uploadfile/product/1/2014/05/07/1399441046.jpg" />
               
                     </div>
             </div>
@@ -1760,64 +1758,46 @@ background: #dfefc9;
 </li>
 <li class="fn-clear">
     <div class="fore1 fn-clear">
-        <b>方方</b>
+        <b>企业信息</b>
         <span>04-23&nbsp;13:21</span>
     </div>
     <div class="fore2 fn-clear">
-    	<div class="txt">这个宝贝真不错我很喜欢【CTF【七款可选】周大福福星宝宝投资金币(约10g 计价)IF 】 <a target='_blank' href='http://democn.mall-builder.com/product-detail-329.html'>http://democn.mall-builder.com</a></div>
-                <div class="pic fn-clear">
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/552/2013/12/27/1388117119.jpg" />
-              
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/552/2013/12/27/1388117130.jpg" />
-              
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/552/2013/12/27/1388117150.jpg" />
-              
-                    </div>
+    	<div class="txt" style="height: 250px;">企业 信息企业信息企业信 息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业 信息企业信息企业信 息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业 信息企业信息企业信 息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业 信息企业信息企业信 息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业 信息企业信息企业信 息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业 信息企业信息企业信 息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业信息企业 <a target='_blank' href='http://democn.mall-builder.com/product-detail-329.html'>>>>详情</a></div>
+                
             </div>
-    <div class="fore3 fn-clear">
-        <span>评论(0)</span>
-        <span>转发(0)</span>
-    </div>
 </li>
-<li class="fn-clear">
-    <div class="fore1 fn-clear">
-        <b>方方</b>
-        <span>04-23&nbsp;13:21</span>
-    </div>
-    <div class="fore2 fn-clear">
-    	<div class="txt">这个宝贝真不错我很喜欢【【现货土豪金5087起送128元礼】Apple/苹果 iPhone 5s 国行原封】 <a target='_blank' href='http://democn.mall-builder.com/product-detail-318.html'>http://democn.mall-builder.com</a></div>
-                <div class="pic fn-clear">
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/534/2013/12/17/1387263299.jpg" />
-              
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/534/2013/12/17/1387263309.jpg" />
-              
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/534/2013/12/17/1387263323.jpg" />
-              
-                    </div>
-            </div>
-    <div class="fore3 fn-clear">
-        <span>评论(0)</span>
-        <span>转发(1)</span>
-    </div>
-</li>
-<li class="fn-clear">
-    <div class="fore1 fn-clear">
-        <b>方方</b>
-        <span>04-23&nbsp;13:21</span>
-    </div>
-    <div class="fore2 fn-clear">
-    	<div class="txt">这个宝贝真不错我很喜欢【奥迪A6L】 <a target='_blank' href='http://democn.mall-builder.com/product-detail-378.html'>http://democn.mall-builder.com</a></div>
-                <div class="pic fn-clear">
-                                        <img width="80" src="http://democn.mall-builder.com/uploadfile/product/751/2014/04/15/1397541997.jpg" />
-              
-                    </div>
-            </div>
-    <div class="fore3 fn-clear">
-        <span>评论(0)</span>
-        <span>转发(0)</span>
-    </div>
-</li>
+
 </dd>
+<dt class="fn-clear" style="margin-top:30px;">
+            	<a target="_blank" href="http://democn.mall-builder.com/sns.html">更多</a>
+            	<h2>信康中心介绍</h2>
+            </dt>
+            <dd>
+		<li class="fn-clear">
+    <div class="fore1 fn-clear">
+        <b>公司简介</b>
+        <span>05-20&nbsp;12:00</span>
+    </div>
+    <div class="fore2 fn-clear">
+    	<div class="txt" style="height: 200px;">公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介
+		公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介<a target='_blank' href='http://democn.mall-builder.com/product-detail-420.html'>>>>详情</a></div>
+		
+	</div>
+</li>
+
+<li class="fn-clear">
+    <div class="fore1 fn-clear">
+        <b>公司分点</b>
+        <span>04-23&nbsp;13:21</span>
+    </div>
+    <div class="fore2 fn-clear">
+    	<div class="txt" style="height: 200px;">公司分点公司分点公司分点公司分点公司分点公司分点公司分点公司分点 公司分点公司分点公司分点公司分点公司分点公司分点公司分点公司分点 公司分点公司分点公司分点公司分点公司分点公司分点公司分点公司分点 公司分点公司分点公司分点公司分点公司分点公司分点公司分点公司分点 公司分点公司分点公司分点公司分点公司分点公司分点公司分点公司分点 公司分点公司分点公司分点公司分点公司分点公司分点公司分点公司分点 公司分点公司分点公司分点公司 <a target='_blank' href='http://democn.mall-builder.com/product-detail-329.html'>>>>详情</a></div>
+                
+            </div>
+</li>
+
+</dd>
+
         </dl>
     	<!--<div class="news">
         	<dl>
