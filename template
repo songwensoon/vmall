@@ -1389,11 +1389,9 @@ background: #dfefc9;
 </li>
 </ul>
                 <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100301">电脑整机</a></li>
-				                		<li><a href="?m=product&s=list&id=100302">电脑配件</a></li>
-				                		<li><a href="?m=product&s=list&id=100303">办公打印</a></li>
-				                		<li><a href="?m=product&s=list&id=100304">网络产品</a></li>
-				                		<li><a href="?m=product&s=list&id=100305">服务商城</a></li>
+                                		<li><a href="?m=product&s=list&id=100301">学习文具</a></li>
+				                		<li><a href="?m=product&s=list&id=100302">办公耗材</a></li>
+				                		<li><a href="?m=product&s=list&id=100303">笔记簿、书签</a></li>
 				                </ul>        
             </dd>
 		</div>
@@ -1468,12 +1466,9 @@ background: #dfefc9;
 </li>
 </ul>
                 <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100501">女装</a></li>
-				                		<li><a href="?m=product&s=list&id=100502">男装</a></li>
-				                		<li><a href="?m=product&s=list&id=100503">内衣</a></li>
-				                		<li><a href="?m=product&s=list&id=100504">运动</a></li>
-				                		<li><a href="?m=product&s=list&id=100505">女鞋</a></li>
-				                		<li><a href="?m=product&s=list&id=100506">男鞋</a></li>
+                                		<li><a href="?m=product&s=list&id=100501">洗浴用品</a></li>
+				                		<li><a href="?m=product&s=list&id=100502">清洁用品</a></li>
+				                		<li><a href="?m=product&s=list&id=100503">床上用品</a></li>
 				                </ul>        
             </dd>
 		</div>
@@ -1508,11 +1503,9 @@ background: #dfefc9;
 </li>
 </ul>
                 <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100601">面部护肤</a></li>
-				                		<li><a href="?m=product&s=list&id=100602">彩妆香水</a></li>
-				                		<li><a href="?m=product&s=list&id=100603">洗发护发</a></li>
-				                		<li><a href="?m=product&s=list&id=100604">身体护肤</a></li>
-				                		<li><a href="?m=product&s=list&id=100605">美容养颜</a></li>
+                                		<li><a href="?m=product&s=list&id=100601">女士用品</a></li>
+				                		<li><a href="?m=product&s=list&id=100602">男士用品</a></li>
+				                		<li><a href="?m=product&s=list&id=100603">保健食用用品</a></li>
 				                </ul>        
             </dd>
 		</div>
@@ -1548,12 +1541,8 @@ background: #dfefc9;
 </li>
 </ul>
                 <ul class="cat fn-clear">
-                                		<li><a href="?m=product&s=list&id=100801">健身训练</a></li>
-				                		<li><a href="?m=product&s=list&id=100802">体育用品</a></li>
-				                		<li><a href="?m=product&s=list&id=100803">户外装备</a></li>
-				                		<li><a href="?m=product&s=list&id=100804">户外鞋服</a></li>
-				                		<li><a href="?m=product&s=list&id=100805">游泳用品</a></li>
-				                		<li><a href="?m=product&s=list&id=100806">骑行运动</a></li>
+                                		<li><a href="?m=product&s=list&id=100801">健身器械</a></li>
+				                		<li><a href="?m=product&s=list&id=100802">按摩器械</a></li>
 				                </ul>        
             </dd>
 		</div>
