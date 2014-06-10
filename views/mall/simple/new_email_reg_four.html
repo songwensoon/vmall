@@ -1,0 +1,35 @@
+{set:$seo_data=array(); $site_config=new Config('site_config');$site_config=$site_config->getInfo();}
+{set:$seo_data['title']="用户注册_".$site_config['name']}
+{set:seo::set($seo_data);}
+<link rel="stylesheet" href="{skin:css/register.css}" />
+<div class="w">
+    <div class="header">
+        <a hidefocus="true" title="{echo:$siteConfig->name}" href="{url:}"><img height="35" src="" /></a>
+        <h2>账户注册</h2>
+    </div>
+	<div class="steps step-3">
+        <ol>
+            <li class="step1">1 填写账户信息</li>
+            <li class="step2">2 验证账户信息</li>
+            <li class="step3">3 注册成功</li>
+        </ol>	
+	</div>
+    <div class="register clearfix">
+       	<?php if($this->error){?>
+        验证失败
+        <?php }else{?>
+        <div class="success">
+        	<div class="fore1">
+                <p>
+                    <em><?php echo $this->username;?></em>
+                    <span>&nbsp;恭喜亲注册成功！&nbsp;&nbsp;</span>
+                    <a href="{url:}">立即购物</a>
+                </p>
+            </div>
+            <div class="fore2">
+            	您的 邮箱 <em><?php echo $this->email;?></em> 也可作为登录名，用于登录。
+            </div>
+        </div>
+        <?php }?>
+    </div>
+</div>
