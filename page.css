@@ -99,7 +99,7 @@ em{font-style:normal;}
 .menu .cart{float:right;width:176px;padding-left:50px;background:url(../../../image/new/bg.png) -18px 10px no-repeat #FA4D51;margin:0;}
 .menu .cart a{width:176px;text-align:left;position:relative;}
 .menu .cart b{background:#FFF;height:18px;padding:0 10px;line-height:18px;color:#F06673; position:absolute;top:11px;right:30px;border-radius:10px;}
-.category{background:#FFF;height:473px;padding:0;position:relative;z-index:999;border:1px solid #F0F0F0;}
+.category{background:#FFF;height:251px;padding:0;position:relative;z-index:999;border:1px solid #F0F0F0;}
 .category .navcatgory li{overflow:hidden;position:relative;width:164px;font-size:14px;line-height:35px;}
 .category .navcatgory li p{width:136px;margin:0 10px;padding:0 5px;border-bottom:1px solid #F0F0F0;background:url(../../../image/new/bg.png) 120px -24px no-repeat;}
 .category .navcatgory li em{background-position:0 0;background-repeat:no-repeat;font-size:12px;padding-left:35px;cursor:pointer;}
