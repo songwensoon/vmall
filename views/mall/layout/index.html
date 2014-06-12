@@ -1,0 +1,153 @@
+{set:
+	$site_config=new Config('site_config');
+	$seo_data=array();
+	$seo_data['title']=$site_config->name;
+	$seo_data['title'].=$site_config->index_seo_title;
+	$seo_data['keywords']=$site_config->index_seo_keywords;
+	$seo_data['description']=$site_config->index_seo_description;
+	seo::set($seo_data);
+}
+<script type='text/javascript' src='{theme:javascript/jquery.flexslider-min.js}'></script>
+<script language="javascript" src="{url:/javascript/adloader/}"></script>
+<link href="{url:}/views/mall/javascript/jcarousel/skins/tango/skin.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="{skin:css/product.css}" />
+<div class="w fn-clear">
+	<div class="adv">
+    	<div class="adv787X327">
+		{if:$this->index_slide}
+			<script>
+			$(window).load(function(){$("#slider_1").flexslider({directionNav:false})});
+			</script>
+			<div id="slider_1" class="slide">
+				<ul class="slides">
+					{foreach:items=$this->index_slide}
+					<li style="display: list-item;">
+						<a href="{url:$item[url]}" target="_blank">
+						<img src="{webroot:$item[img]}" height="230px;" title="{$item['name']}">
+						</a>
+					</li>
+					{/foreach}
+				</ul>
+			</div>
+		{/if}
+        </div>
+    </div>
+
+<div class="box m_10">
+			
+    <div class="right_side">
+		<dl class="notice">
+            <dt>公告<a class="more" href="{url:/site/notice}" style="float:right;">更多...</a></dt>
+            <dd class="fore1">
+				{query:name=announcement limit=5 order=id desc}
+				{set:$tmpId=$item['id'];}
+				<li><a href="{url:/site/notice_detail/id/$tmpId}" target="_blank">{$item['title']}</a></li>
+				{/query}
+			</dd>
+            <dd class="fore2">
+                <a class="login" href="{url:simple/login}"></a>
+                <a class="register" href="{url:simple/reg}"></a>
+            </dd>
+        </dl>
+        
+	</div>
+</div>
+
+<div class="w mt20 fn-clear aboutus">
+	<div class="articleleft fn-clear">
+		{query:name=article where=visibility eq 1 and category_id neq 3 and top eq 1 order=sort ASC,id DESC fields=title,id,style,content,img,color limit=6}
+		{set:$tmpId=$item['id'];}
+        <dl>
+			<div class="i-m">
+				<dt style="border-left-color:">{echo:Article::showTitle($item['title'],$item['color'],$item['style'])}</dt>
+				<dd class="fn-clear">
+					<div class="aboutcontent">
+					<div class="fcontentstr lineheight200">
+						<img title="tel" src="{$item['img']}" style="float: left;margin:5px 10px 5px 5px">
+						{echo:Article::get_word($item['content'],450)}
+						<a href="{url:/site/article_detail/id/$tmpId}" title="" class="fr mr5 c_red a_m">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;详情</a></div>
+					</div>     
+				</dd>
+			</div>
+		</dl>
+        {/query}
+    </div>
+</div>
+
+<div class="w adv1200X119">
+	<div id="adHere_6"></div>
+	<script language="javascript">
+	(new adLoader()).load(6,'adHere_6');
+	</script>
+</div>
+
+<div class="w mt20 fn-clear">
+	<div class="left fn-clear">
+	{query:name=article where=visibility eq 1 and category_id eq 3 and top eq 1 order=sort ASC,id DESC fields=title,id,style,content,img,color limit=6}
+	{set:$tmpId=$item['id'];}
+	<dl>
+		<div class="i-m">
+			<dt style="border-left-color:">{echo:Article::showTitle($item['title'],$item['color'],$item['style'])}</dt>
+			<dd class="fn-clear">
+				<div class="aboutcontent">
+				<div class="fcontentstr lineheight200">
+					<img title="tel" src="{$item['img']}" style="float: left;margin:5px 10px 5px 5px">
+					{echo:Article::get_word($item['content'],450)}
+					<a href="{url:/site/article_detail/id/$tmpId}" title="" class="fr mr5 c_red a_m">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;详情</a></div>
+				</div>     
+			</dd>
+		</div>
+	</dl>
+	{/query}
+	</div>
+	<div class="right">
+    	<dl class="sns">
+        	<dt class="fn-clear">
+            	<h2>最新评论</h2>
+            </dt>
+            <dd>
+			{query:name=comment as co
+					join=left join goods as go on co.goods_id eq go.id
+					order=co.id desc
+					limit=6
+					where=co.status eq 1 AND go.is_del eq 0 AND go.id is not null
+					fields=go.img as img,go.name as name,co.point,co.contents,co.goods_id
+				}
+				<dl class="no_bg">
+					{set:$tmpGoodsId=$item['goods_id'];}
+					<dt><a href="{url:/site/products/id/$tmpGoodsId}"><img src="{webroot:}{echo:Thumb::get($item['img'],66,66)}" width="66" height="66" /></a></dt>
+					<dd><a href="{url:/site/products/id/$tmpGoodsId}">{$item['name']}</a></dd>
+					<dd><span class="grade"><i style="width:{echo:$item['point']*14}px"></i></span></dd>
+					<dd class="com_c">{$item['contents']}</dd>
+				</dl>
+				{/query}
+			</dd>
+        </dl>
+    	<!--<div class="news">
+        	<dl>
+            	<dt>精选信息</dt>
+                <dd class="fore1">
+                	<div class="mod-a">
+                    	<div><a href=""><img src="http://gtms01.alicdn.com/tps/i1/T1PAtXFPxdXXcv.kZy-220-221.jpg" /></a></div>
+                        <div>
+                        <a href=""><img src="http://gtms02.alicdn.com/tps/i2/T1c0JXFH8dXXXEG.Zr-110-110.jpg" /></a>
+                        <a href=""><img src="http://gtms01.alicdn.com/tps/i1/T1LHBbFGFaXXXEG.Zr-110-110.jpg" /></a>
+                        </div>
+                    </div>
+                	<div class="mod-b"></div>
+                </dd>
+                <dd class="fore2"></dd>
+                <dd class="fore3"></dd>
+                <dd class="fore4"></dd>
+            </dl>
+        </div>-->
+    </div>
+   
+</div>
+<script>
+$(".dt span").click(function(){
+	var index=$(this).index();
+	$(this).addClass("current").siblings().removeClass("current");
+	$(this).parent().parent().find(".i-mc").eq(index).show().siblings(".i-mc").hide();
+});
+</script>
