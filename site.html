@@ -3,6 +3,7 @@
 	$myCartInfo = $myCartObj->getMyCart();
 	$siteConfig = new Config("site_config");
 	$callback   = IReq::get('callback') ? urlencode(IFilter::act(IReq::get('callback'),'url')) : '';
+	$action = IReq::get('action');
 }
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -17,6 +18,7 @@
 	<script type='text/javascript' src='{theme:javascript/site.js}'></script>
 	<script type='text/javascript' src='{theme:javascript/base.js}'></script>
 	<script type='text/javascript' src='{theme:javascript/jquery.validate.min.js}'></script>
+	{set:$sonline = new Sonline();$sonline->show($siteConfig->phone,$siteConfig->service_online);}
 </head>
 <style>
 
@@ -73,7 +75,7 @@
 		<div class="w">
 			<dl class="dl">
 			<dt class="dt"><h2><a href="javascript:void(0);">全部商品分类</a></h2></dt>
-			<dd class="dd" style="display:block">
+			<dd class="dd" {if:empty($action)||($action=='index')}style="display:block"{/if}>
 				<div id="J_Category" class="category">
 					<div class="navcatgory">
 						<ul>
@@ -126,6 +128,7 @@
 		</div>
 	</div>
 	<div class="brand_list container_2">
+		{viewcontent}
 		{echo:IFilter::stripSlash($siteConfig->site_footer_code)}
 	</div>
 <script type='text/javascript' src='{theme:javascript/kissy.js}'></script>
