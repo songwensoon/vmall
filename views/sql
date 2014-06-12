@@ -7,7 +7,7 @@ Target Database: iweb
 Date: 2014/6/12 17:47:22
 */
 
-SET FOREIGN_KEY_CHECKS=0;
+drop table if exists `iwebshop_category`;
 -- ----------------------------
 -- Table structure for iwebshop_category
 -- ----------------------------
@@ -69,7 +69,7 @@ Target Database: iweb
 Date: 2014/6/12 17:47:44
 */
 
-SET FOREIGN_KEY_CHECKS=0;
+drop table if exists `iwebshop_article_category`;
 -- ----------------------------
 -- Table structure for iwebshop_article_category
 -- ----------------------------
