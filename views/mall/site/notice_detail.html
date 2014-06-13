@@ -1,0 +1,17 @@
+{set:$seo_data=array(); $site_config=new Config('site_config');$site_config=$site_config->getInfo();}
+{set:$seo_data['title']=$this->noticeRow['title']}
+{if:isset($site_config['name'])}
+	{set:$seo_data['title'].="_".$site_config['name']}
+{/if}
+{set:seo::set($seo_data);}
+<div class="w">
+    <div class="news">
+        <div class="title">
+            <h1>{$this->noticeRow['title']}</h1>
+            <div class="summary">时间：{$this->noticeRow['time']}</div>
+        </div>
+        <div class="content">
+        	{$this->noticeRow['content']}
+        </div>
+    </div>
+</div>
